@@ -17,6 +17,10 @@
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
                                     <a class="nav-link" href="index.php?url=product">Data Produk</a>
+                                    <a class="nav-link" href="index.php?url=jenis_produk">Data Jenis Produk</a>
+                                    <a class="nav-link" href="index.php?url=pelanggan">Data Pelanggan</a>
+                                    <a class="nav-link" href="index.php?url=pesanan">Data Pesanan</a>
+                                    <a class="nav-link" href="index.php?url=kartu">Data kartu</a>
                                     <a class="nav-link" href="layout-sidenav-light.html">Light Sidenav</a>
                                 </nav>
                             </div>
@@ -33,7 +37,7 @@
                                     </a>
                                     <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
                                         <nav class="sb-sidenav-menu-nested nav">
-                                            <a class="nav-link" href="login.php">Login</a>
+                                            <a class="nav-link" href="login.html">Login</a>
                                             <a class="nav-link" href="register.html">Register</a>
                                             <a class="nav-link" href="password.html">Forgot Password</a>
                                         </nav>
@@ -60,19 +64,6 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 Tables
                             </a>
-                            <a class="nav-link" href="about.php">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                About
-                            </a>
-                            <a class="nav-link" href="contact.php">
-                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
-                                Contact
-                            </a>
-                            <a class="nav-link" href="login.php">
-                                <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
-                                Login
-                            </a>
-                            
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">

@@ -1,5 +1,11 @@
 <?php
 //memanggil dan memproses file bagian atas
+include_once 'koneksi.php';
+include_once 'models/Produk.php';
+include_once 'models/Jenis_Produk.php';
+include_once 'models/Pelanggan.php';
+include_once 'models/Pesanan.php';
+include_once 'models/kartu.php';
 include_once 'top.php';
 //memanggil dan memproses file bagian menu
 include_once 'menu.php';
@@ -9,7 +15,7 @@ include_once 'menu.php';
                     <div class="container-fluid px-4">
                         
                         <?php 
-                        // algoritma menangkap url agar masuk kedalam index
+                        //algoritma menangkap url agar masuk kedalam index
                         $url = $_GET['url'];
                         if($url == 'dashboard'){
                             include_once 'dashboard.php';
